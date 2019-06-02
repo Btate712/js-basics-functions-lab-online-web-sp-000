@@ -7,3 +7,7 @@ function distanceTravelledInFeet(beginningBlock, endingBlock) {
 function distanceFromHqInBlocks(streetLocation) {
   return Math.abs(streetLocation - 42);
 }
+
+function distanceFromHqInFeet(streetLocation) {
+  return 264 * distanceFromHqInBlocks(streetLocation);
+}
