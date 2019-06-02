@@ -18,7 +18,7 @@ function calculatesFarePrice(start, destination) {
     return 0;
   }
   else if (distance >= 400 && distance < 2000) {
-    return 0.02 * distance - 8;
+    return (0.02 * distance - 8).toFixed(2);
   }
   else if (distance >= 2000 && distance < 2500) {
     return 25;
